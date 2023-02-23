@@ -1,17 +1,6 @@
-name: Run UI tests in Browserstack
+name: Run tests
 
 on:
-  workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Environment to run tests against'
-        required: true
-        default: 'qa'
-        type: choice
-        options:
-          - dev
-          - qa
-          - stage
   workflow_call:
     inputs:
       environment:

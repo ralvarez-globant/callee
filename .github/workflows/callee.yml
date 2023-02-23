@@ -15,5 +15,4 @@ jobs:
 
     steps:
       - name: test output
-        id: print
 	run: echo "Hello World"

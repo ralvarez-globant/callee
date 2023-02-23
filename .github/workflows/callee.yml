@@ -17,4 +17,4 @@ jobs:
       - name: Output
         id: print
         run: |
-          echo "Hello World! ${inputs.environment}"
+          echo "Hello World! ${{ inputs.environment }}"

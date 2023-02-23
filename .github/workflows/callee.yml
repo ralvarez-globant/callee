@@ -11,8 +11,10 @@ on:
 
 jobs:
   run-test:
+    name: Run Output
     runs-on: ubuntu-latest
-
     steps:
-      - name: test output
-	run: echo "Hello World"
+      - name: Output
+        id: print
+        run: |
+          echo "Hello World!"
